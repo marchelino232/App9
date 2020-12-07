@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App9"
+             x:Class="App9.MainPage">
+
+    <StackLayout>
+        <Image Source="nike.png" HeightRequest="150" />
+        <Label Text="Welcome To Marchelino's T-Shirts " HorizontalTextAlignment="Center" TextColor="YellowGreen" FontSize="40"/>
+
+        <ScrollView/>
+        <Entry Placeholder="Please Enter Name "/>
+        <Entry Placeholder="Please Enter Gender"/>
+        <Entry Placeholder="please Enter T Shirt Size"/>
+        <Entry Placeholder="Please Enter Date Of Order"/>
+        <Entry Placeholder="Please Enter T-Shirt Color"/>
+        <Entry Placeholder="Please Enter Date Of Order"/>
+        <Entry Placeholder="Please Enter Shipping Address"/>
+        <Button Text="Submit Order"/>
+        <ScrollView/>
+
+
+        <Frame BackgroundColor="Aqua" Padding="20" CornerRadius="0">
+            
+            
+            
+
+          
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
